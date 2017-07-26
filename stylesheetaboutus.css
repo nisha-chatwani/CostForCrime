@@ -2,3 +2,7 @@ table, td {
     border: 1px solid black;
     padding: 15px;
 }
+
+div {
+    border: 0px solid white;
+}
