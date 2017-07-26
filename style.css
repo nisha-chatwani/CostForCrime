@@ -1,13 +1,32 @@
 .intro {
   position: relative;
-  width:100%;
-
+  height: 0.5%;
+  width: 100%
 }
 
 .title {
   position: absolute;
   top: 30px;
   width: 50%;
+  left:400px;
+}
+
+.title span {
+  color: white;
+  font: bold 45px Helvetiva, Sans-Serif;
+  padding: 10px;
+  background:rgba(107, 107, 71,0.8);
+}
+
+.box {
   text-align: center;
-  left:50px; 
+}
+
+.law {
+  border-collapse:collapse;
+}
+
+.row {
+  border-bottom: 2px solid #D8FCBA;
+  border-left: 2px solid #D8FCBA;
 }
