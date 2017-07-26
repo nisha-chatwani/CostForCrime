@@ -11,7 +11,7 @@ body {
 .menu-wrap {
     width:100%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:##0c0c0c;
+    background:#0c0c0c;
 }
  
 .menu {
@@ -27,7 +27,7 @@ body {
  
 .menu a {
     transition:all linear 0.15s;
-    color:#0c0c0c;
+    color:#d8fcba;
 }
  
 .menu li:hover > a, .menu .current-item > a {
