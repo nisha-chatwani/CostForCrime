@@ -1,0 +1,13 @@
+.intro {
+  position: relative;
+  width:100%;
+
+}
+
+.title {
+  position: absolute;
+  top: 30px;
+  width: 50%;
+  text-align: center;
+  left:50px; 
+}
