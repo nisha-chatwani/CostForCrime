@@ -32,7 +32,7 @@ body {
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-    color:#D8FCBA;
+    color:#0c0c0c;
 }
  
 .menu .arrow {
