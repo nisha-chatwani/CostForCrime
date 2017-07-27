@@ -28,11 +28,11 @@
                 <div style= "background-color: black"><a href="#" style="text-decoration: none">Crimes <span class="arrow">&#9660;</span></a></div>
                 <div style = "text-decoration: none">
                 <ul class="sub-menu">
-                    <li><a style = "text-decoration: none" href="#">Underage Drinking</a></li>
-                    <li><a style = "text-decoration: none" href="#">Drugs</a></li>
-                    <li><a style = "text-decoration: none" href="#">Petty Theft</a></li>
-                    <li><a style = "text-decoration: none" href="#">Drugs</a></li>
-                    <li><a style = "text-decoration: none" href="#">Vandalism</a></li>
+                    <li><a style = "text-decoration: none"><var id = "cboola"> Underage Drinking</var></a></li>
+                  <li><a style = "text-decoration: none"><var id = "cboolb"> Drugs</var></a></li>
+                    <li><a style = "text-decoration: none"><var id = "cboolc"> Petty Theft</var></a></li>
+                  <li><a style = "text-decoration: none"><var id = "cboold"> Drugs</var></a></li>
+                  <li><a style = "text-decoration: none"><var id = "cboole"> Vandalism</var></a></li>
                 </div>
                 </ul>
             </li>
@@ -48,7 +48,7 @@
                 <div style= "background-color: black"><a href="#" style="text-decoration: none">Location<span class="arrow">&#9660;</span></a></div>
                 <div style = "text-decoration: none">
                 <ul class="sub-menu">
-                    <li><a style = "text-decoration: none" href="#">California</a></li>
+                  <li><a style = "text-decoration: none"><var id  = "lboola"> California</var></a></li>
                 </div>
                 </ul>
             </li>
@@ -59,9 +59,24 @@
         </td>
       </tr>
     </table>
-
+    <button onclick = "myFunction()">Find the Cost of Your Crime</button>
     
-    
+    <script>
+      function myFunction() {
+        var a = document.getElementByID("cboola");
+        Boolean(a);
+        var b = document.getElementByID("cboolb");
+        Boolean(b);
+        var c = document.getElementByID("cboolc");
+        Boolean(c);
+        var d = document.getElementByID("cboold");
+        Boolean(d);
+        var e = document.getElementByID("cboole");
+        Boolean(e);
+        var a2 = document.getElementByID("lboola");
+        Boolean(a2);
+        
+        switch (
   </body>
 
 </html>
