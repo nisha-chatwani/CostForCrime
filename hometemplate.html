@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script language="javascript" type="text/javascript">
-function getValue() {
-var currentvalue = document.form1.dropdown.value;
-document.getElementById("value");
-value.innerHTML = currentvalue;
-}
-function getValue2() {
-var currentvalue2 = document.form2.dropdown2.value2;
-document.getElementById("value2");
-value2.innerHTML = currentvalue2;
-}
-</script>
+  <script language="javascript" type="text/javascript">
+
+  //var currentvalue = "";
+  //var currentvalue2 = "";
+
+  function getValue() {
+
+    var currentvalue = document.form1.dropdown.value;
+    return currentvalue;
+  }
+
+  function getValue2() {
+
+    var currentvalue2 = document.form2.dropdown2.value;
+
+    return currentvalue2;
+  }
+
+  function myFunction() {
+
+    //alert(currentvalue2);
+    //alert("Hello! This is currentvalue2: ");
+    //alert(getValue());
+    //alert("option3: " + getValue());
+    //alert("option8: " + getValue2());
+
+    //var test = getValue() == "option3";
+    //var test1 = getValue2() == "option8";
+
+    //var test = getValue2() === "option8";
+//alert(getValue2());
+  //  var test = (typeof getValue() === 'string');
+    //alert(getValue());
+
+    //alert(test1);
+    //alert(test);
+
+    if (getValue() === "option2" && getValue2() === "option8") {
+//new String(getValue()).valueOf() === "Underage Drinking" && new String(getValue2()).valueOf() === "California"
+
+      document.location.href = "https://www.google.com/";
+
+    }
+    if (getValue() === "option2" && getValue2() === "option8") {
+//new String(getValue()).valueOf() === "Underage Drinking" && new String(getValue2()).valueOf() === "California"
+
+      document.location.href = "https://www.google.com/";
+
+    }
+  }
+
+
+  </script>
+
 </head>
 <body onload="getValue()">
+<body onload="getValue2()">
+
 <style type="text/css">
 #value {
-border: solid 2px black;
-width: 100px;
+  border: solid 2px black;
+  width: 100px;
 }
 </style>
+
 <form name="form1">
-<select name="dropdown" onChange="getValue()">
-<option value="option1">Select A Crime</option>
-<option value="option2">Underage Drinking</option>
-<option value="option3">Drugs</option>
-<option value="option4">Petty Theft</option>
-<option value="option5">Vandalism</option>
-<option value="option6">Disorderly Conduct</option>
-</select>
-</form>
+  <select name="dropdown" onChange="getValue()">
+    <option value="option1"><var id = "option1">Select A Crime</option>
+      <option value="option2"><var id = "option2">Underage Drinking</option>
+        <option value="option3"><var id = "option3">Drugs</option>
+          <option value="option4"><var id = "option4">Petty Theft</option>
+            <option value="option5"><var id = "option5">Vandalism</option>
+              <option value="option6"><var id = "option6">Disorderly Conduct</option>
+              </select>
+            </form>
 
-<form name="form2">
-<select name="dropdown2" onChange="getValue2()">
-<option value="option7">Select A Location</option>
-<option value="option8">California</option>
-</select>
-</form>
+            <form name="form2">
+              <select name="dropdown2" onChange="getValue2()">
+                <option value="option7"><var id = "option7">Select A Location</option>
+                  <option value="option8"><var id = "option8">California</option>
+                  </select>
+                </form>
 
-<script>
-	if (currentvalue == "option2" && currentvalue2 == "option8")
+                <button id="buttonerdsf" onclick = "myFunction()">Find the Cost of Your Crime</button>
 
-</body>
+
+          </body>
+          </html>
