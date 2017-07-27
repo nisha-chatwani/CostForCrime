@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+function getValue() {
+var currentvalue = document.form1.dropdown.value;
+document.getElementById("value");
+value.innerHTML = currentvalue;
+}
+function getValue2() {
+var currentvalue2 = document.form2.dropdown2.value2;
+document.getElementById("value2");
+value2.innerHTML = currentvalue2;
+}
+</script>
+</head>
+<body onload="getValue()">
+<style type="text/css">
+#value {
+border: solid 2px black;
+width: 100px;
+}
+</style>
+<form name="form1">
+<select name="dropdown" onChange="getValue()">
+<option value="option1">Select A Crime</option>
+<option value="option2">Underage Drinking</option>
+<option value="option3">Drugs</option>
+<option value="option4">Petty Theft</option>
+<option value="option5">Vandalism</option>
+<option value="option6">Disorderly Conduct</option>
+</select>
+</form>
+
+<form name="form2">
+<select name="dropdown2" onChange="getValue2()">
+<option value="option7">Select A Location</option>
+<option value="option8">California</option>
+</select>
+</form>
+
+<script>
+	if (currentvalue == "option2" && currentvalue2 == "option8")
+
+</body>
