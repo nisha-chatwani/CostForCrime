@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Cost of Crime</title>
+    <link rel = "stylesheet" type="text/css" href= "style.css">
+  </head>
+
+  <body>
+    <div class="intro">
+      <img src= "https://github.com/nchatwani/CostForCrime/blob/master/Hellloooooooooo%20(2).png?raw=true" style = "width: 100%; height: 150px">
+     <center><h2 class="title"><span>The Cost of Crime</span></h2></center>
+    </div>
+    <table style="width: 100%">
+<tr style="background-color:#D8FCBA; height: 1%">
+    <td style="text-align: center;font-size:30px;font-family:courier;width:3%;"><a href="Home.html" style"="text-decoration:none; color:black" ><img src = "https://github.com/nchatwani/CostForCrime/blob/master/FinalCrimeLogo.png?raw=true" style = "display: block"></a></td>
+    <td style="text-align:center;font-size:25px;font-family:courier;width:32%"><a href="aboutus.html" style="text-decoration:none; color:black">Our Team</a></td>
+    <td style="text-align:center;font-size:25px;font-family:courier;width:32%"><a href="explore.html" style="text-decoration:none; color:black">Explore</a></td>
+    <td style="text-align:center;font-size:25px;font-family:courier;width:33%"><a href="disclaimer.html" style="text-decoration:none;color:black">Disclaimer</a></td>
+</tr>
+</table>
+<center><h1>Possession of Marijuana- California</h1></center>
+<div style = "text-align: center">
+  <div class= "box" style="background-color:white;width:80%;border:2px solid #D8FCBA; margin: 0 auto;">
+    <h2 style="color:black; text-align: left">Sentences</h3>
+      <ul>
+        <li></li>
+      </ul>
+    <p style="color: black;font-family:Helvetica, sans serif"></p>
+  </div>
+<br>
+</br>
+<br>
+  <table align = "center" class= "law" style="background-color:white;width:80%;border:2px solid #D8FCBA">
+      <tr style="background-color:white;width:80%;border:2px solid #D8FCBA">
+        <th class="row"><h3>Actual law</h3></td>
+        <th class="row"><h3>Simplified</h3></td>
+      </tr>
+
+  <td class = "row" style = "width: 70%><p>
+      <tr style="background-color:white;width:80%;border:2px solid #D8FCBA">
+        <td class= "row" style="width: 30%"><p>
+        <p>To read the actual law, click on the link below: 
+        <a href= "http://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-11357.html"</a>
+        California Code, Health and Safety Code - HSC § 11357
+</p></td>
+        <td class= "row" style="width:70%"><p>If you are over 21, possessing less than 28.5 grams of marijuana (or 4 grams of concentrated cannabis) is legal. However, if you are under the age of 21, possessing marijuana is still illegal.
+If you possess less than 28.5 grams of marijuana or less and are under age 18, after arrested for smoking marijuana for the first time, you must complete 10 hours of community service and four hours of drug education before 60 days after your arrest. If you are arrested a second time, you must complete six hours of drug education and 20 hours of community service within 90 days of your arrest. 
+
+Maximum punishment:
+Misdemeanor, $250 fine, 10 days of incarceration
+
+If you possess less than 28.5 grams of marijuana or less and are between ages 18-21, you are subject to a fine $100 or less. 
+
+If you possess more than 28.5 grams of marijuana and are under 18,
+ your risk being imprisoned for up to six months, and or a fine up to $500. 
+
+If you are over 18 and possess less than 28.5 grams of marijuana in a preschool or k-12 school, you are subject to a fine of $250 or less after being arrested the first time. After being caught a second time, you are subject to a fine of $500 or less, and or 10 days or less in a county jail. 
+</p>
+      </tr>
+
+      
+  </table>
+</body>
+</html>
+Contact GitHub API Training Shop Blog About
