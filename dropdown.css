@@ -15,7 +15,7 @@ body {
 }
  
 .menu {
-    width:1000px;
+    width:500px;
     margin:0px auto;
 }
  
@@ -65,7 +65,7 @@ body {
 }
  
 .sub-menu {
-    width:160%;
+    width:50%;
     padding:5px 0px;
     position:absolute;
     top:100%;
