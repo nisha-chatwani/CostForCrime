@@ -33,14 +33,14 @@ function myMap() {
  marker.setMap(map);
   google.maps.event.addListener(marker,'click',function() {
     var infowindow = new google.maps.InfoWindow({
-      content:"Hello World!"
+      content:"Most common crimes comitted by teenagers: vandalism, drinking, theft, weapons"
     });
   infowindow.open(map,marker);
   });
 
   google.maps.event.addListener(newMarker,'click',function() {
     var infowindow = new google.maps.InfoWindow({
-      content:"Hello World!"
+      content:"Most common crimes committed by teenagers: theft, weapons!"
     });
   infowindow.open(map,newMarker);
   });
