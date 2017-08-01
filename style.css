@@ -1,4 +1,4 @@
-.intro {
+intro {
   position: relative;
   height: 0.5%;
   width: 100%
@@ -56,37 +56,9 @@ select optgroup {
 .buttonerdsf {
   height: 50px;
   width: 200px;
-  margin-left: 600px;
   background-color: black;
   color: white;
   border: 2px solid #D8FCBA;
-
-}
-
-.buttoncool {
-  height: 50px;
-  width: 200px;
-  background-color: black;
-  color: white;
-  border: 2px solid #D8FCBA;
-}
-padding: 0 0 0 80px;
-}
-
-.location {
-  padding: 0 0 0 70px;
-}
-
-select optgroup {
-  font-size: 20px
-}
-
-button {
-  height: 50px;
-  width: 200px;
-  margin-left: 800px;
-  background-color: black;
-  color: white;
-  border: 2px solid #D8FCBA;
+    font-size: 20px;
 
 }
