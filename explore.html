@@ -17,10 +17,59 @@
   </tr>
   </table>
 <br></br>
+<div class= "box" style="background-color:white;width:40%">
+  <h2 style="color:black; text-align: left">Search for a crime to find the consequences in multiple locations.</h2>
+</div>
 <br></br>
-<div id="map" style="width:80%;height:500px"></div>
-
-<script>
+<table align = "center">
+                          <tr>
+                            <th style = "width:33%">
+                              <form name="form3">
+                                <select name="dropdown3" onChange="getValue3()" class="crimeo">
+                                  <optgroup>
+                                    <option value="option10"><var id = "option10">Select A Crime</option>
+                                      <option value="option11"><var id = "option11">Underage Drinking</option>
+                                        <option value="option12"><var id = "option12">Petty Theft</option>
+                                          <option value="option13"><var id = "option13">Vandalism</option>
+                                            <option value="option14"><var id = "option14">Disorderly Conduct</option>
+                                              <option value="option15"><var id = "option15">Weapons</option>
+                                              </optgroup>
+                                            </select>
+                                          </form>
+                                        </th>
+                                  <th style = "width:33%">
+                                    <h3></h3>
+                                  </th>
+                                        <th style = "width:30%">
+                                            <button class= "buttoncool" id="buttoncool" onclick = "cool()">Find the Costs of Your Crime</button>
+                                      </th>
+                                      </tr>
+                                    </table>
+                                  <br></br>
+                                  <br></br>
+<div id="map" style="width:80%;height:500px;margin: 0 auto;"></div>
+<script language="javascript" type="text/javascript">
+function getValue3() {
+  var currentvalue3 = document.form3.dropdown3.value;
+  return currentvalue3;
+}
+    function cool () {
+  if (getValue3() === "option11") {
+    document.location.href = "https://rawgit.com/nchatwani/CostForCrime/master/UnderageMapTemplate.html"
+  }
+  if (getValue3() === "option12") {
+    document.location.href = "https://rawgit.com/nchatwani/CostForCrime/master/theftMap.html"
+  }
+  if (getValue3() === "option13") {
+    document.location.href = "https://rawgit.com/nchatwani/CostForCrime/master/vandalismMap.html"
+  }
+  if (getValue3() === "option14") {
+    document.location.href = "https://rawgit.com/nchatwani/CostForCrime/master/disordelyconductMap.html"
+  }
+  if (getValue3() === "option15") {
+    document.location.href = "https://rawgit.com/nchatwani/CostForCrime/master/weaponsMap.html"
+  }
+}
 function myMap() {
   var myCenter = new google.maps.LatLng(34.0522342,-118.2436849);
   var myMarker = new google.maps.LatLng(36.1699412,-115.13982959999998);
@@ -46,11 +95,11 @@ function myMap() {
   });
 }
 
-
-
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3IT5-z2WJLz4-w9CbqGf-uG3extOYgUc&callback=myMap"></script>
+div class= "box" style="background-color:white;width:40%">
+
 
 </body>
 </html>
